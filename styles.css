@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DynaPuff&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'DynaPuff';
+    background-image: url("fondo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.seccion-inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 50px;
+}
+
+.corazon-inicio{
+    width: 250px;
+    height: 250px;
+}
+
+.hidden{
+    display: none;
+}
+
+main{
+    display: none;
+}
+
+.shown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultado{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#jugar{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+#jugar:hover{
+    transform: scale(1.20);
+}
+
+.container-progreso {
+    width: 500px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.barra-progreso {
+    width: 0;
+    height: 100%;
+    background-color: rgb(231, 23, 23);
+    transition: width 0.5s;
+    border-radius: 10px;
+}
+
+#porcentaje{
+    padding-left: 5px;
+}
