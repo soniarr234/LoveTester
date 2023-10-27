@@ -93,3 +93,42 @@ main{
 #porcentaje{
     padding-left: 5px;
 }
+
+
+/*---------------------MEDIA QUERY--------------------------------*/
+@media (max-width: 750px) {
+    .resultados{
+        width: 500px;
+    }
+
+    .resultado{
+        font-size: 25px;
+    }
+
+    #jugar{
+        width: 80px;
+        height: 80px;
+    }
+
+    .container-progreso {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .resultados{
+        width: 400px;
+    }
+
+    .resultado{
+        font-size: 18px;
+    }
+    
+    #jugar:hover{
+        transform: none;
+    }
+
+    .container-progreso {
+        width: 350px;
+    }
+}
