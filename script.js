@@ -2,9 +2,9 @@ const seccionInicio = document.querySelector("#seccion-inicio");
 const contenido = document.querySelector("main");
 const fondo = document.querySelector("body");
 
-fondo.style.backgroundImage = 'url("fondoPrincipal.png")';
+fondo.style.backgroundImage = 'url("imagenes/fondoPrincipal.png")';
 setTimeout(function(){
-    fondo.style.backgroundImage = 'url("fondo.png")';
+    fondo.style.backgroundImage = 'url("imagenes/fondo.png")';
     seccionInicio.classList.add("hidden");
     contenido.classList.add("shown");
 }, 2000);
